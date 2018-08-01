@@ -7,6 +7,6 @@ function(req) {
   
   dat <- rd$find()
   
-  nrow(dat)
+  nrow(dat) %>% print()
   
 }
